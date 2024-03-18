@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - lets learn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ITER - Application Form(2024)</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your username</label>
+            <input type="text" id="username" name="username" placeholder="enter your username" autofocus required>
+        </div>
+        <div>
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Email ID" pattern="[a-zA-Z0-9@]+" required>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="Transgender" name="gender" value="Transgender">
+            <label for="Transgender">Transgender</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">subscribe to newsletter</label>
+            <input type="checkbox" id="Terms" name="Terms" value="yes">
+            <label for="Terms">Terms & Conditions</label>
+        </div>
+        <div>
+            <label for="suggestions">Enter your Suggestions here:</label>
+            <br>
+            <textarea name="suggestions" id="suggestions" cols="38" rows="5" placeholder="Enter Suggestions"></textarea>
+        </div>
+        <div>
+            <select name="Departments" id="">
+            <option value="MCA">MCA</option>
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
