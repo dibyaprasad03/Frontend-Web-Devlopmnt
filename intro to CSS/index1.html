@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        .red { 
+            background-color: black;
+            color: red;
+        }
+
+        #green { 
+            background-color: yellow;
+            color: green;
+        }
+
+        div p {
+            padding: 0;
+            margin: 0;
+            background-color: black;
+        }
+        *{
+            background-color: rgb(248, 248, 248);
+            color: royalblue;
+            margin: 0;
+            padding: 0;
+        }
+        a:visited{
+            color: orange;
+        }
+        a:link{
+            color: orangered;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+        }
+        p:first-child{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <a href=""></a>
+<p>my name is dibya</p>
+<p>hello guys</p>
+</main>
+    <div class="red" id="green">
+        <span>
+            My name is Dibya
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, excepturi!</p>
+        </span>
+    </div>
+    <div class="red">
+        I am from Bhubaneswar
+    </div>
+    <div>
+        <a href="https://www.google.com">Google</a>
+    </div>
+</body>
+
+</html>
